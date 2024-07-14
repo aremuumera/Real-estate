@@ -7,7 +7,7 @@
       "config": { "maxDuration": 20 }
     }
   ],
-  "routes": [
+  "rewrites": [
     { "src": "/(.*)", "dest": "/" }
   ]
 }
