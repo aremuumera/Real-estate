@@ -3,7 +3,7 @@ import { Server } from "socket.io";
 // Initialize Socket.IO server
 const io = new Server({
   cors: {
-    origin: "http://localhost:5174",  // Allow connections from this origin
+    origin: "https://real-estate-three-orcin.vercel.app/",  // Allow connections from this origin
   },
 });
 

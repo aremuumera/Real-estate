@@ -12,7 +12,8 @@ import cors from 'cors'
 const app = express();
 
 app.use(cors({
-    origin:"http://localhost:5174",
+    // origin:"http://localhost:5174",
+    origin: "https://real-estate-three-orcin.vercel.app/",
     credentials: true
 }))
 app.use(express.json());
