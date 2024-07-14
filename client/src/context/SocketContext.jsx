@@ -9,7 +9,7 @@ export const SocketContextProvider = ({ children }) => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    setSocket(io("https://real-estate-socket-api.vercel.app/"));
+    setSocket(io("https://real-estate-socket-api.vercel.app"));
   }, []);
 
   useEffect(() => {
