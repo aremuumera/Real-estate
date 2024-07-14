@@ -1,7 +1,7 @@
 
 import express from 'express';
 // import { getUsers, getUser, deleteUser,  savePost, profilePosts, getNotificationNumber } from '../controllers/user.controller.js';
-import { deleteUser, getNotificationNumber, getUser, getUsers, profilePosts, savePost, updateUser } from '../controllers/user.controller.js';
+import { deleteUser, getNotificationNumber, getUser, getUsers, profilePosts, savePost, updateUser } from '../controllers/User.controller.js';
 import { verifyToken } from '../middleware/verifyToken.js';
 
 const router  = express.Router();
