@@ -13,8 +13,9 @@ const app = express();
 
 app.use(cors({
     // origin:"http://localhost:5174",
-    origin: "https://real-estate-three-orcin.vercel.app/",
-    credentials: true
+    origin: "https://real-estate-three-orcin.vercel.app",
+    credentials:true,            
+    optionSuccessStatus:200
 }))
 app.use(express.json());
 app.use(cookieParser());
