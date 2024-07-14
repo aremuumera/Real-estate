@@ -29,7 +29,9 @@ app.use("/api/chats", chatRoute);
 app.use("/api/message", messageRoute);
 
 
-
+app.get("/", (req, res) => {
+  res.send("Welcome to your Yikes estate");
+});
 
 app.listen(8000, () => {
     console.log("Server is running on port 8000");
