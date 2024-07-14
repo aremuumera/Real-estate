@@ -7,7 +7,7 @@
       "config": { "maxDuration": 20 }
     }
   ],
-  "rewrites": [
+  "routes": [
     { "src": "/(.*)", "dest": "/api" }
   ]
 }
